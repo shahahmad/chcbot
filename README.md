@@ -45,3 +45,13 @@ $TXT
 update\tnew,any,dev,development,chaincoin,chc\tHi, here is the new update
 hi\t\thello!
 ```
+
+#TODO:
+1. Use nltk stemmer package available for python to get stem words from input_list
+such as plurals (so they do not need their own row in input.txt)
+
+2. If needed, add functionality to allow for unlimited "layers" of keys after
+primary keys (not just secondary keys)
+
+3. Use natural language processing to utilize word order and sentence structure
+to generate more accurate responses
