@@ -8,7 +8,7 @@ def chcbot(input_str):
     #set up primary and secondary keys for commands
     keyword_dict = {}
     import csv
-    with open('example.txt', 'rb') as f:
+    with open('input.txt', 'rb') as f:
         reader = csv.reader(f, delimiter="\t")
         d = list(reader)
         for row in d:

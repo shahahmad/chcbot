@@ -1,6 +1,4 @@
 # chcbot
-Script to generate automated responses based on input text
-
 This script will take an input string and generate an automated response based on
 given predetermined input.
 
@@ -28,7 +26,7 @@ $ Python
 
 The outputs are generated using a tab delimited file. The file contains no header
 and three columns separated by "\t". The fist column is the primary key, the
-second column are the secondary keys and the last column is the response.
+second column contains the the secondary keys and the last column is the response.
 
 1.For the time being only a single primary key can be given, but multiple secondary
 keys can be given separated by commas.
@@ -39,9 +37,9 @@ off if given).
 3.The secondary key field can be left blank
 
 
-EXAMPLE:
+EXAMPLE (please also refer to the "input.txt" file):
 ```
-$CSV
+$TXT
 update\tnew,any,dev,development,chaincoin,chc\tHi, here is the new update
 hi\t\thello!
 ```
