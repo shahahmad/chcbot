@@ -46,7 +46,7 @@ update\tnew,any,dev,development,chaincoin,chc\tHi, here is the new update
 hi\t\thello!
 ```
 
-#TODO:
+TODO:
 1. Use nltk stemmer package available for python to get stem words from input_list
 such as plurals (so they do not need their own row in input.txt)
 
