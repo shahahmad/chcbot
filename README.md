@@ -12,12 +12,19 @@ and a response is generated based on the primary keyword alone.
 
 EXAMPLE:
 > primary key = updates
+>
 > secondary key = new,any,chc
+>
 > response = Hi, here are the updates!
 >
 > chcbot('Are there any new updates?')
+>
 > "Hi, here are the updates!"
+>
 > chcbot('@chainbot updates')
+>
 > "Hi, here are the updates!"
+>
 > chcbot('my computer keeps getting updates')
+>
 > ""
