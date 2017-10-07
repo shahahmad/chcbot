@@ -2,13 +2,10 @@
 
 def chcbot(input_str):
     import re, string, csv
-    # sys.modules[__name__].__dict__.clear()
-    # from nltk.stem.lancaster import LancasterStemmer
-    # st = LancasterStemmer()
     input_str = input_str.lower()
     punctuation = string.punctuation.replace('@','')
     input_str = input_str.translate(None, punctuation)
-    #set up primary and secondary keys fo rcommands
+    #set up primary and secondary keys for commands
     keyword_dict = {}
     import csv
     with open('example.txt', 'rb') as f:
