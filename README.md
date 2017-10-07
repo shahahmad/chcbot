@@ -18,8 +18,10 @@ $ Python
 > response = "Hi, here are the updates!"
 > chcbot('Are there any new updates?')
 > "Hi, here are the updates!"
+
 > chcbot('@chainbot updates')
 > "Hi, here are the updates!"
+
 > chcbot('my computer keeps getting updates')
 >
 ```
