@@ -28,6 +28,8 @@ The outputs are generated using a tab delimited file. The file contains no heade
 and three columns separated by "\t". The fist column is the primary key, the
 second column contains the the secondary keys and the last column is the response.
 
+Here are some criteria the input data must follow:
+
 1. For the time being only a single primary key can be given, but multiple secondary
 keys can be given separated by commas.
 
