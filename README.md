@@ -11,7 +11,9 @@ If the keyword "@chainbot" is found, then the secondary keyword search is skippe
 and a response is generated based on the primary keyword alone.
 
 EXAMPLE:
-> >primary key = "updates"
+```
+$ Python
+> primary key = "updates"
 >
 > secondary key = "new,any,chc"
 >
@@ -28,3 +30,4 @@ EXAMPLE:
 > chcbot('my computer keeps getting updates')
 >
 > ""
+```
